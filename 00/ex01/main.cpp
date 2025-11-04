@@ -13,13 +13,14 @@ int main(int argc, char **agrv)
 	std::string option;
 	PhoneBook phoneBook;
 
+	phoneBook.initValues();
 	while (1)
 	{
 		menu(&option);
 		if (option == "ADD")
 			phoneBook.addContact();
 		else if (option == "SEARCH")
-			phoneBook.addContact();
+			phoneBook.searchContacts();
 		else if (option == "EXIT")
 		{
 			std::cout << "Closing...\n";

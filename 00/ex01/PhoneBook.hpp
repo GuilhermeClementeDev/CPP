@@ -14,6 +14,7 @@ class Contact
 		std::string darkestSecret;
 	public:
 		void setContact(std::string fn, std::string ln, std::string n, std::string ph, std::string ds);
+		void getVariables(std::string arr[5]);
 };
 
 class PhoneBook
@@ -24,6 +25,7 @@ class PhoneBook
 		int index;
 	public:
 		void addContact();
+		void initValues();
 		void searchContacts();
 };
 
