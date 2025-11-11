@@ -13,7 +13,7 @@ int main (int argc, char **argv)
 {
 	if (argc != 3 || !argv[1][0] || !argv[2][0])
 	{
-		std::cerr << "Invalid number of inputs.\nExpected: ./zombie 'number of zombies' 'name'\n";
+		std::cerr << "Invalid number of inputs.\nExpected: ./Moar_brainz 'number of zombies' 'name'\n";
 		return (-1);
 	}
 	verifyNumb(argv[1]);
