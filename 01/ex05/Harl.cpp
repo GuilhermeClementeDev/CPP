@@ -43,6 +43,6 @@ void Harl::complain(std::string level)
 			return ;
 		}
 	}
-		std::cout << "Error: Invalid option.\n";
+		std::cout << "Invalid option.\n";
 }
 
